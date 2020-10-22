@@ -114,6 +114,7 @@ p {
 
 #about,
 #service,
+#games,
 #experience,
 #education,
 #contact {
@@ -124,6 +125,7 @@ p {
 #about .container, 
 #experience .container,
 #service .container,
+#games .container,
 #education .container,
 #contact .container {
   width: 100%;
@@ -137,7 +139,7 @@ p {
 }
 
 #service,
-#quotes,
+#games,
 footer {
   text-align: center;
 }
@@ -159,6 +161,28 @@ footer {
     bottom: 0;
     left: 0;
 }
+
+.img-circular{
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  background-image: url('../images/artemat.jpg');
+  background-size: cover;
+  
+  display: block;
+  border-radius: 100px;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+ }
+
+ .download {
+  
+  border: none;
+  color: white;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
 
 .color-white {
   color: #ffffff;
@@ -433,8 +457,6 @@ a:hover, a:active, a:focus {
   padding-bottom: 22px;
 }
 
-
-
 /*---------------------------------------
     Experience section              
 -----------------------------------------*/
@@ -486,19 +508,20 @@ a:hover, a:active, a:focus {
 
 
 /*---------------------------------------
-   Quotes section              
+   Games section              
 -----------------------------------------*/
 
-#quotes {
+#games {
     background: url('../images/emptytable.jpg') 50% 0 repeat-y fixed;
     background-size: cover;
     background-position: center center;
+    align-items: center;
     color: #ffffff;
     position: relative;
-    padding: 100px 0px;
+    padding: 20px 0px;
 }
 
-#quotes .overlay {
+#games .overlay {
     background: #121212;
     width: 100%;
     height: 100%;
@@ -507,14 +530,21 @@ a:hover, a:active, a:focus {
     opacity: 0.7;
 }
 
-#quotes .fa {
-  font-size: 42px;
-  margin-top: 32px;
-  margin-bottom: 22px;
+#games .fa {
+  font-size: 30px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  align-items: center;
 }
 
-#quotes p {
+#games p {
   padding-top: 32px;
+}
+
+.center {
+  margin: auto;
+  width: auto;  
+  padding: 10px;
 }
 
 
@@ -638,7 +668,6 @@ footer {
 }
 
 
-
 /*---------------------------------------
    Mobile Responsive         
 -----------------------------------------*/
@@ -679,6 +708,7 @@ footer {
   #about .container, 
   #experience .container,
   #service .container,
+  #games .container,
   #education .container,
   #contact .container {
     padding-right: 15px;
