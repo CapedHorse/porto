@@ -228,7 +228,6 @@ p {
 #about,
 #games,
 #experience,
-#education,
 #contact {
   position: relative;
 }
@@ -237,15 +236,13 @@ p {
 #about .container, 
 #experience .container,
 #games .container,
-#education .container,
 #contact .container {
   width: 100%;
   padding: 0;
   margin: 0;
 }
 
-#experience .experience-thumb,
-#education .education-thumb  {
+#experience .experience-thumb {
   padding: 22px 42px 42px 42px;
 }
 
@@ -255,9 +252,7 @@ footer {
 }
 
 #experience,
-#education {
-  background: #E9724C;
-}
+
 
 .background-image {
     background-position: 50% 50% !important;
@@ -609,31 +604,6 @@ width: auto;
 padding: 10px;
 }
 
-/*---------------------------------------
-    Education section              
------------------------------------------*/
-
-#education {
-  background: #E3AE57;
-}
-
-#education .education-img {
-  background: url('../images/edu.jpg') no-repeat;
-}
-
-#education .media-heading {
-  margin-bottom: 0px;
-}
-
-#education .media .fa {
-  font-size: 42px;
-  margin-right: 14px;
-}
-
-#education small {
-  color: #886D1E;
-  font-weight: bold;
-}
 
 /*---------------------------------------
     Contact section              
@@ -757,7 +727,6 @@ footer {
   #about .container, 
   #experience .container,
   #games .container,
-  #education .container,
   #contact .container {
     padding-right: 15px;
     padding-left: 15px;
@@ -765,7 +734,6 @@ footer {
 
   #about .col-md-3,
   #experience .col-md-6,
-  #education .col-md-6,
   #contact .col-md-3 {
     padding: 0;
     margin: 0;
